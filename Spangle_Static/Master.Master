@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="Spangle_Static.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+   
+     
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
+   
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+   
+    <style>
+
+        .body{
+
+             background: #eee url(http://subtlepatterns.com/patterns/sativa.png);
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class=" body">
+   
+    <form id="form1" runat="server">
+        <div>
+            <img src="Images/SpangleMaster.JPG" class="img-responsive" style=" width:100%; height:200px; margin-top:40px;" />
+
+        </div>
+        <div>
+             <div class=" container">
+    
+    <div class=" row">
+    <div class=" navbar navbar-inverse navbar-fixed-top">
+    
+    <div class=" container">
+
+<div class=" navbar-header">
+<a href="#" class=" navbar-brand"  > <img style="width:35px; height:35px; " 
+             src="Images/1543.JPG" class="img img-circle img-responsive"></a>
+
+<button type="button" class=" navbar-toggle" data-toggle="collapse" data-target="#mynav">
+<span class=" icon-bar"></span>
+<span class=" icon-bar"></span>
+<span class=" icon-bar"></span>
+
+</button>
+    
+</div>
+<div class=" collapse navbar-collapse" id="mynav">
+    <ul class=" nav navbar-nav">
+    
+    <li><a href="Index.aspx"><span  class="fas fa-home" style="font-size:30px; margin-left:20px;"></span></a></li>
+    
+    <li><a href="Contact_us.aspx"><span class="fa fa-phone"  style="font-size:30px;"></span></a></li>
+    
+    <li><a href="About_us.aspx"><span class="fas fa-user" style="font-size:30px;" ></span></a></li>
+    <li><a href="Services.aspx"><span class="fa fa-wrench" style=" font-size:30px"></span></a></li>
+        
+    <li><a href="Products.aspx"><span class="fab fa-product-hunt" style=" font-size:30px"></span></a></li>
+        
+</ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="Signin.aspx"><span class="glyphicon glyphicon-log-in" style=" font-size:30px;"></span> Admin</a></li>
+    </ul>
+</div>
+</div><!-- end of container-->
+</div>
+
+    </div>
+
+
+
+    </div>
+
+    
+    
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div>
+    </div>
+   
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <hr style="color:black; font-weight:bold" />
+        <div class=" container">
+        <div class="row">
+            <div class=" col-md-12 text-center " >
+                <footer style=" color:black;font-family:'Times New Roman', Times, serif; font-size:large;">Copyright © 2018 Spangle Pakistan (Private) Limited (Site Designed and Maintained by Hybrid Hueb Technologies)</footer>
+                </div>
+        </div>
+            </div>
+    </form>
+</body>
+</html>
